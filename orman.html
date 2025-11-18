@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8b0ca4fc866fb71c73904a1d0996afd9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8b0ca4fc866fb71c73904a1d0996afd9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8b0ca4fc866fb71c73904a1d0996afd9 = L.map(
+                "map_8b0ca4fc866fb71c73904a1d0996afd9",
+                {
+                    center: [39.0, 35.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4fd8ef31e381d4bebb7a2fffa3a5a00f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4fd8ef31e381d4bebb7a2fffa3a5a00f.addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+            var circle_marker_2ed5382f9d580301aa9f970220293884 = L.circleMarker(
+                [37.2153, 28.3636],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.58, "stroke": true, "weight": 3}
+            ).addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+        var popup_8aea87485146afba0611959788ce67bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c4ee3e509c4077e20250230c8423829 = $(`<div id="html_3c4ee3e509c4077e20250230c8423829" style="width: 100.0%; height: 100.0%;">Muğla: 2716 yangın</div>`)[0];
+                popup_8aea87485146afba0611959788ce67bf.setContent(html_3c4ee3e509c4077e20250230c8423829);
+            
+        
+
+        circle_marker_2ed5382f9d580301aa9f970220293884.bindPopup(popup_8aea87485146afba0611959788ce67bf)
+        ;
+
+        
+    
+    
+            var circle_marker_2ae7565b7493c1763f8eecbd735894d1 = L.circleMarker(
+                [36.8841, 30.7056],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.23, "stroke": true, "weight": 3}
+            ).addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+        var popup_5c6e659cea419997dad64dac0715c0c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9eac861628d6e1fc640a4109bd316038 = $(`<div id="html_9eac861628d6e1fc640a4109bd316038" style="width: 100.0%; height: 100.0%;">Antalya: 2446 yangın</div>`)[0];
+                popup_5c6e659cea419997dad64dac0715c0c8.setContent(html_9eac861628d6e1fc640a4109bd316038);
+            
+        
+
+        circle_marker_2ae7565b7493c1763f8eecbd735894d1.bindPopup(popup_5c6e659cea419997dad64dac0715c0c8)
+        ;
+
+        
+    
+    
+            var circle_marker_ea394cf8408467639d98be3b78bb38b3 = L.circleMarker(
+                [38.4192, 27.1287],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.245, "stroke": true, "weight": 3}
+            ).addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+        var popup_a604ac404aca0371d6c5cf6eeee18d00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89472b771bbbb8066083c4900e8b7b9b = $(`<div id="html_89472b771bbbb8066083c4900e8b7b9b" style="width: 100.0%; height: 100.0%;">İzmir: 1649 yangın</div>`)[0];
+                popup_a604ac404aca0371d6c5cf6eeee18d00.setContent(html_89472b771bbbb8066083c4900e8b7b9b);
+            
+        
+
+        circle_marker_ea394cf8408467639d98be3b78bb38b3.bindPopup(popup_a604ac404aca0371d6c5cf6eeee18d00)
+        ;
+
+        
+    
+    
+            var circle_marker_ab87a4ec8a4d821c8939adf095d4f744 = L.circleMarker(
+                [41.0082, 28.9784],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.465, "stroke": true, "weight": 3}
+            ).addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+        var popup_dc820383ee50b0df33c49ebbd5c5663e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eacffd6d916cc4cbc78d2d80cef08039 = $(`<div id="html_eacffd6d916cc4cbc78d2d80cef08039" style="width: 100.0%; height: 100.0%;">İstanbul: 1493 yangın</div>`)[0];
+                popup_dc820383ee50b0df33c49ebbd5c5663e.setContent(html_eacffd6d916cc4cbc78d2d80cef08039);
+            
+        
+
+        circle_marker_ab87a4ec8a4d821c8939adf095d4f744.bindPopup(popup_dc820383ee50b0df33c49ebbd5c5663e)
+        ;
+
+        
+    
+    
+            var circle_marker_d27bdda0fc3ef334fefcc4a59dcd842f = L.circleMarker(
+                [37.0, 35.3213],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.43, "stroke": true, "weight": 3}
+            ).addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+        var popup_b55841c4bdadfb7fcf3d79051247a30f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4cc837b2c9fe137234b5464bbee0096 = $(`<div id="html_b4cc837b2c9fe137234b5464bbee0096" style="width: 100.0%; height: 100.0%;">Adana: 1086 yangın</div>`)[0];
+                popup_b55841c4bdadfb7fcf3d79051247a30f.setContent(html_b4cc837b2c9fe137234b5464bbee0096);
+            
+        
+
+        circle_marker_d27bdda0fc3ef334fefcc4a59dcd842f.bindPopup(popup_b55841c4bdadfb7fcf3d79051247a30f)
+        ;
+
+        
+    
+    
+            var circle_marker_9b74a027179479e84ba7b9ccf44c5aa4 = L.circleMarker(
+                [38.6191, 27.4289],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.81, "stroke": true, "weight": 3}
+            ).addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+        var popup_7a29deb5af62dad09387b4d099f1838d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_448f3f932c974dbe4f387ad44e9a6056 = $(`<div id="html_448f3f932c974dbe4f387ad44e9a6056" style="width: 100.0%; height: 100.0%;">Manisa: 962 yangın</div>`)[0];
+                popup_7a29deb5af62dad09387b4d099f1838d.setContent(html_448f3f932c974dbe4f387ad44e9a6056);
+            
+        
+
+        circle_marker_9b74a027179479e84ba7b9ccf44c5aa4.bindPopup(popup_7a29deb5af62dad09387b4d099f1838d)
+        ;
+
+        
+    
+    
+            var circle_marker_2f61b875ca622fbb4d457420a00f3cf5 = L.circleMarker(
+                [36.4018, 36.3498],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.745, "stroke": true, "weight": 3}
+            ).addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+        var popup_ba32fb438c936ac7111c5641cba72827 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21f4a4165107f80e638d0ccd22060246 = $(`<div id="html_21f4a4165107f80e638d0ccd22060246" style="width: 100.0%; height: 100.0%;">Hatay: 949 yangın</div>`)[0];
+                popup_ba32fb438c936ac7111c5641cba72827.setContent(html_21f4a4165107f80e638d0ccd22060246);
+            
+        
+
+        circle_marker_2f61b875ca622fbb4d457420a00f3cf5.bindPopup(popup_ba32fb438c936ac7111c5641cba72827)
+        ;
+
+        
+    
+    
+            var circle_marker_397a3e6d800e8d81da04c8868a07b44f = L.circleMarker(
+                [36.8, 34.6333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.54, "stroke": true, "weight": 3}
+            ).addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+        var popup_65b6cfd95f1e2f07cd349efc51704bda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db5c428a8eb0c8c61daacf3be36d7831 = $(`<div id="html_db5c428a8eb0c8c61daacf3be36d7831" style="width: 100.0%; height: 100.0%;">Mersin: 908 yangın</div>`)[0];
+                popup_65b6cfd95f1e2f07cd349efc51704bda.setContent(html_db5c428a8eb0c8c61daacf3be36d7831);
+            
+        
+
+        circle_marker_397a3e6d800e8d81da04c8868a07b44f.bindPopup(popup_65b6cfd95f1e2f07cd349efc51704bda)
+        ;
+
+        
+    
+    
+            var circle_marker_7617d50f0cfe5fd39d15571946b77a71 = L.circleMarker(
+                [41.3887, 33.7827],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.75, "stroke": true, "weight": 3}
+            ).addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+        var popup_654ebf56318779c59b63590d19b7c0d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64d52407c930ace995391d986b0434ff = $(`<div id="html_64d52407c930ace995391d986b0434ff" style="width: 100.0%; height: 100.0%;">Kastamonu: 750 yangın</div>`)[0];
+                popup_654ebf56318779c59b63590d19b7c0d4.setContent(html_64d52407c930ace995391d986b0434ff);
+            
+        
+
+        circle_marker_7617d50f0cfe5fd39d15571946b77a71.bindPopup(popup_654ebf56318779c59b63590d19b7c0d4)
+        ;
+
+        
+    
+    
+            var circle_marker_e93cff46e93de002d43e6871dbac5c38 = L.circleMarker(
+                [37.5736, 36.9371],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.275, "stroke": true, "weight": 3}
+            ).addTo(map_8b0ca4fc866fb71c73904a1d0996afd9);
+        
+    
+        var popup_28305a49ff01da212658230d29e1a4ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcccd066448c92ec0ad29d40f9b8c768 = $(`<div id="html_fcccd066448c92ec0ad29d40f9b8c768" style="width: 100.0%; height: 100.0%;">Kahramanmaraş: 655 yangın</div>`)[0];
+                popup_28305a49ff01da212658230d29e1a4ea.setContent(html_fcccd066448c92ec0ad29d40f9b8c768);
+            
+        
+
+        circle_marker_e93cff46e93de002d43e6871dbac5c38.bindPopup(popup_28305a49ff01da212658230d29e1a4ea)
+        ;
+
+        
+    
+</script>
+</html>
